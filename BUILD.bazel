@@ -1,0 +1,11 @@
+# -*- mode: python -*-
+# vi: set ft=python :
+
+# Copyright 2020-2023 Massachusetts Institute of Technology.
+# Licensed under the BSD 3-Clause License. See LICENSE.TXT for details.
+
+filegroup(
+    name = "pokemon",
+    srcs = glob(["Pokemon*.png"]),
+    visibility = ["//visibility:public"],
+)
