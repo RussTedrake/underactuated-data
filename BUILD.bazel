@@ -9,3 +9,8 @@ filegroup(
     srcs = glob(["Pokemon*.png"]),
     visibility = ["//visibility:public"],
 )
+
+exports_files(
+    glob(["*"]),  # This includes all files in the directory
+    visibility = ["//visibility:public"],
+)
